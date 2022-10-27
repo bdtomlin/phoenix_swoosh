@@ -26,11 +26,11 @@ defmodule PhoenixSwoosh.Mixfile do
   defp deps do
     [
       {:swoosh, "~> 1.5"},
-      {:phoenix_view, "~> 1.0"},
+      {:phoenix_view, "~> 2.0"},
       {:phoenix_html, "~> 3.0", optional: true},
       {:hackney, "~> 1.10", optional: true},
       {:finch, "~> 0.8", optional: true},
-      {:phoenix, "~> 1.6", optional: true},
+      {:phoenix, "~> 1.6.15", optional: true},
       {:credo, "~> 1.0", only: [:dev, :test]},
       {:ex_doc, "~> 0.26", only: :docs, runtime: false}
     ]
